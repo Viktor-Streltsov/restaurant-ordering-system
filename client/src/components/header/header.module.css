@@ -1,0 +1,58 @@
+.head {
+    padding-top: 2rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 2em 200px;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.text_logo {
+    padding-top: 0.3em;
+}
+
+.menu_link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 6.25rem;
+}
+
+.menu_link ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 2.25rem;
+}
+
+.menu_link li a span, .menu_link li span{
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu_link li a span:hover,
+.menu_link li span:hover
+{
+    color: #34C759;
+}
+
+.user {
+    padding-right: 3em;
+}

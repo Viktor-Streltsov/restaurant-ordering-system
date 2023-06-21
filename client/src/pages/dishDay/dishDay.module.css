@@ -1,0 +1,160 @@
+.dish_day {
+    margin-top: 6rem;
+}
+
+.dish_head {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+    position: relative;
+    height: 6rem;
+}
+
+.about_head-dish, .text_head_dish {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about_head_dish {
+    font-weight: 900;
+    font-size: 6.25rem;
+    z-index: 0;
+    letter-spacing: 0.2em;
+    color: #303030;
+}
+
+.text_head_dish {
+    font-weight: 400;
+    font-size: 1.8rem;
+    letter-spacing: 0.2em;
+    color: #D9D9D9;
+}
+
+.line_dish {
+    width: 3.75rem;
+    height: 0.125rem;
+    background: #34C759;
+    margin: 0 auto;
+}
+
+.blocks_dish {
+    width: 69.375rem;
+    margin: 0 auto;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.8rem;
+    row-gap: 1.8rem;
+}
+
+.dish_meal {
+    width: 21.875rem;
+    background: #252525;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.dish_meal:hover ul li svg rect{
+    fill: #F9AD3D;
+}
+
+.dish_meal:hover .button_block_order {
+    background: #34C759;
+}
+
+.dish_meal:hover .button_block_order a span {
+    color: #000;
+}
+
+.img_dish_meal {
+    position: relative;
+}
+
+.arrow_share {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_dish_meal, .status_star_meal {
+    margin-top: 1.8rem;
+    padding: 1.8rem;
+}
+
+.info_dish_meal {
+    padding-bottom: 0rem;
+}
+
+.info_head {
+    font-weight: 400;
+    font-size: 2rem;
+    color: #D9D9D9;
+}
+
+.mini_info_head {
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #A4A8B2;
+}
+
+.text_info {
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: -0.1625px;
+    color: #85878C;
+}
+
+.status_star_meal {
+    margin-top: 1.5rem;
+}
+
+.block_star {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 0.4rem;
+}
+
+.count_grade {
+    padding-left: 0.9rem;
+    color: #fff;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0.2rem;
+}
+
+.button_block_order {
+    width: 6.25rem;
+    height: 1.875rem;
+    background: #262626;
+    border: 2px solid #303030;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_block_order a span {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+}
